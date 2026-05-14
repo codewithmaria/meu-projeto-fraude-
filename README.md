@@ -21,7 +21,3 @@ A organização das pastas reflete uma estrutura profissional de projeto de Data
 *   **Análise de Dados**: Pandas, Numpy
 *   **Visualização**: Matplotlib, Seaborn, Mlxtend
 
-## 🚀 Como Executar
-1. Clone este repositório em sua máquina:
-   ```bash
-   git clone [https://github.com/SEU_USUARIO/NOME_DO_REPOSITORIO.git](https://github.com/SEU_USUARIO/NOME_DO_REPOSITORIO.git)
