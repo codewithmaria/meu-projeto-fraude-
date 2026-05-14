@@ -2,5 +2,5 @@ git init
 git add .
 git commit -m "Primeiro commit: Organização do projeto de fraude"
 git branch -M main
-git remote add origin URL_DO_SEU_REPOSITORIO
+git remote add origin https://github.com/codewithmaria/meu-projeto-fraude-
 git push -u origin main
