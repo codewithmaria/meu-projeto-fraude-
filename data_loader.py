@@ -5,12 +5,12 @@ from sklearn.preprocessing import StandardScaler, LabelEncoder
 from sklearn.model_selection import train_test_split
 
 def carregar_e_processar():
-    # 1. Carregamento (Seu código original)
+    # 1. Carregamento
     path = kagglehub.dataset_download("chitwanmanchanda/fraudulent-transactions-data")
     csv_path = os.path.join(path, "Fraud.csv")
     df = pd.read_csv(csv_path)
 
-    # 2. Pré-processamento (Suas transformações originais)
+    # 2. Pré-processamento
     le_orig = LabelEncoder()
     le_dest = LabelEncoder()
     le_type = LabelEncoder()
@@ -19,7 +19,7 @@ def carregar_e_processar():
     df['nameDest_num'] = le_dest.fit_transform(df['nameDest'])
     df['type_num'] = le_type.fit_transform(df['type'])
 
-    # 3. Definição de X e Y (Suas features escolhidas)
+    # 3. Definição de X e Y
     features = ['amount', 'oldbalanceOrg', 'newbalanceOrig', 'oldbalanceDest',
                 'newbalanceDest', 'type_num', 'nameOrig_num', 'nameDest_num']
     target = 'isFraud'
