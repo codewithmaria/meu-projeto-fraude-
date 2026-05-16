@@ -3,7 +3,7 @@ from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import Dense
 
 def construir_modelo(input_dim):
-    # 5. Compilado e Treinamento (Sua estrutura exata)
+    # 5. Compilado e Treinamento
     model = Sequential()
     
     # Camada de entrada e primeira oculta (64 neurônios)
